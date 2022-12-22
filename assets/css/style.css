@@ -1,6 +1,6 @@
 .main-header {
     width: 100%;
-    height: 50vh;
+    height: 75vh;
     background-image: url(../img/libreria-header.jpeg);
     background-attachment: fixed;
     background-position: center;
@@ -149,6 +149,7 @@
 
 .navbar {
     background-color: #FF8F29 !important;
+    margin-bottom: 15px;
 }
 .dropdown-item, .dropdown-menu {
     background-color: #FF8F29;
@@ -161,9 +162,10 @@
 
 .carousel {
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 .carousel-item {
-    height: 42vh;
+    height: auto;
     padding: 10px;
 }
 @media (max-width: 782px){
@@ -177,7 +179,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    font-family: Arial, Helvetica, sans-serif;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -193,7 +194,7 @@
     margin-top: 15px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 50px 50px 50px; 
+    grid-template-rows: auto; 
     grid-template-areas: "ico pp pp rrss"
                          "ico pp pp rrss"
                          "ico dr dr rrss";
@@ -201,16 +202,14 @@
     height: auto;
     background-color: #05F2C7;
 }
-
-
 .ico {
     grid-area: ico;
     justify-self: start;
     align-self: center;
 }
 .ico-img{
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
     padding: 10px;
     margin-left: 45px;
 }
@@ -250,4 +249,11 @@
     color: #00acee;
     font-size: 48px;
     padding: 3px;
+}
+
+/* novedades */
+.publicidad-dos__img {
+    width: 98%;
+    object-fit: cover;
+    padding: 10px;
 }
