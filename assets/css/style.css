@@ -148,7 +148,6 @@
 }
 
 .navbar {
-    position: sticky !important;
     background-color: #FF8F29 !important;
 }
 .dropdown-item, .dropdown-menu {
