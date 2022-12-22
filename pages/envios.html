@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="shortcut icon" href="../assets/img/icono-libreria.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Envios</title>
+</head>
+<body>
+    <header class="main-header">
+        <img class="main-header__img" src="../assets/img/icono-libreria.png" alt="IconoLibreria">
+        <span class="main-header__span">Libreria Editorial</span>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-light nav.bar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="../pages/libros.html" data-bs-toggle="dropdown" aria-expanded="false">
+                        Libros
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="">Aventura</a></li>
+                    <li><a class="dropdown-item" href="">Accion</a></li>
+                    <li><a class="dropdown-item" href="">Historia</a></li>
+                    <li><a class="dropdown-item" href="">Romantico</a></li>
+                    <li><a class="dropdown-item" href="">Infantil</a></li>
+                    <li><a class="dropdown-item" href="">No Ficcion</a></li>
+                    <li><a class="dropdown-item" href="">Comics y Mangas</a></li>
+                    <li><a class="dropdown-item" href="">Autoayuda</a></li>
+                    <li><a class="dropdown-item" href="">Ciencia Ficcion</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../pages/novedades.html">Novedades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/contactos.html">Contacto</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <main>
+        <section class="titulo">
+            <h2 class="titulo__h2">Envios</h2>
+            <p class="titulo__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum molestiae incidunt nisi ratione fugit totam itaque eius modi sunt eos quibusdam labore quis, voluptatum sit adipisci dolores. Corporis eius ullam iste voluptate aliquid accusantium quo quasi, nesciunt mollitia! Assumenda necessitatibus nam corrupti repellendus, quaerat velit, autem magnam reprehenderit veritatis vitae libero. Recusandae dolores vel sint! <a href="">FAQ's</a></p>
+        </section>
+        <div class="calculador"> 
+            <h3 class="calculador__h3">Calcula tu costo de envio:</h3>
+            <div class="calculador__div">
+                <form class="calculador__form">
+                    <div class="calculador__opciones">
+                        <select class="calculador__select" name="provincia">
+                            <option value="Provincia" disabled selected>Provincia</option>
+                            <option value="Buenos Aires">Buenos Aires</option>
+                            <option value="Cordoba">Cordoba</option>
+                            <option value="Santa Fe">Santa Fe</option>
+                        </select>
+                    </div>
+                    <div class="calculador__opciones">
+                        <select class="calculador__select" name="ciudad">
+                            <option value="Ciudad" disabled selected>Ciudad</option>
+                            <option value="Capital Federal">Capital Federal</option>
+                            <option value="Cordoba Capital">Cordoba Capital</option>
+                            <option value="Santa Fe">Santa Fe</option>
+                        </select>
+                    </div>
+                    <div class="calculador__opciones">
+                        <input class="calculador__select" type="number" placeholder="Codigo Postal">
+                    </div>
+                    <div>
+                        <input class="boton-dos" type="button" value="Calcular">
+                    </div>
+                </form>
+                <iframe class="calculador__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2894830.3454923015!2d-64.15475928008338!3d-32.98962072211951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaf5f5fdc667%3A0x3d2f77992af00fa8!2sArgentina!5e0!3m2!1ses-419!2sit!4v1669650264733!5m2!1ses-419!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <section class="subtitulo">
+            <p class="subtitulo__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, eum. Optio et beatae magni sit vel vitae quia cum qui ipsum sint? Debitis nam tempore sit nostrum aliquid. Assumenda, quas.</p>
+            <div class="subtitulo__wsp">
+                <a class="wsp" href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="ico">
+            <img class="ico-img" src="../assets/img/icono-libreria.png" alt="icono">
+        </div>
+        <div class="pp">
+            <a class="pp-link" href="">Politica de Privacidad</a>
+            <a class="pp-link" href="">Administrar Preferencias</a>
+        </div>
+        <div class="dr">
+            <p class="dr-p">© Editorial. Todos los derechos reservados</p>
+        </div>
+        <div class="rrss">
+            <a class="rrss-in" href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="rrss-fb" href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+            <a class="rrss-tw" href="https://www.twitter.com"><i class="fa-brands fa-square-twitter"></i></a>
+        </div>
+    </footer> 
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
