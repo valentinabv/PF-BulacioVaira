@@ -486,6 +486,7 @@
     height: 600px;
     margin-bottom: 25px;
     margin-top: 20px;
+    transition: .5s;
 }
 .formulario__form {
     margin: auto;
@@ -497,6 +498,9 @@
     max-width: 400px;
     width: 90%;
     height: max-content;
+}
+.formulario__form:hover {
+    transform: scale(102%);
 }
 .formulario__titulo {
     font-family: Arial, Helvetica, sans-serif;
