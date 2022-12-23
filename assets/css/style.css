@@ -406,7 +406,7 @@
     text-decoration: none;
 }
 .calculador__iframe {
-    width: 100%;
+    width: 25rem;
 }
 @media (max-width: 760px) {
     .calculador__iframe {
@@ -415,7 +415,10 @@
     .boton-dos {
         margin: 3px;
         padding: 10px;
-}
+    }
+    .calculador__iframe {
+        width: 100%;
+    }
 }
 @media (max-width: 555px) {
     .calculador__h3 {
