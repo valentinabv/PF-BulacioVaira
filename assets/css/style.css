@@ -330,6 +330,9 @@
     width: 370px;
     margin-left: 25%;
 }
+.div-padre {
+    overflow: hidden;
+}
 .boton {
     display: flex;
     align-items: center;
