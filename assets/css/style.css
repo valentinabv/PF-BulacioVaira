@@ -179,8 +179,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 10px;
-    margin-bottom: 17px;
+}
+.card {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .card-img-top {
     height: 500px;
@@ -188,6 +190,12 @@
 }
 .card-body {
     padding: 10px;
+}
+.card {
+    transition: .5s;
+}
+.card:hover {
+    transform: scale(105%);
 }
 
 .footer {
