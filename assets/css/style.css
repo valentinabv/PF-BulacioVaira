@@ -184,18 +184,18 @@
     margin-top: 15px;
     margin-bottom: 15px;
 }
+.card {
+    transition: .5s;
+}
+.card:hover {
+    transform: scale(105%);
+}
 .card-img-top {
     height: 500px;
     width: 100%;
 }
 .card-body {
     padding: 10px;
-}
-.card {
-    transition: .5s;
-}
-.card:hover {
-    transform: scale(105%);
 }
 
 .footer {
@@ -326,10 +326,6 @@
 }
 
 /* novedades */
-.libro-img {
-    width: 370px;
-    margin-left: 25%;
-}
 .div-padre {
     overflow: hidden;
 }
