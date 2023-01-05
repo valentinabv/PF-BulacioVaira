@@ -115,11 +115,9 @@
 .navbar {
   background-color: #FF8F29 !important;
   margin-bottom: 15px; }
-
-.dropdown-item, .dropdown-menu {
-  background-color: #FF8F29; }
-
-.btn {
-  background-color: #fbfffe;
-  border: #fbfffe;
-  color: #000000; }
+  .navbar > div > div > ul > li > ul, .navbar li {
+    background-color: #FF8F29; }
+  .navbar > div > div > form > button {
+    background-color: #fbfffe;
+    border: #fbfffe;
+    color: #000000; }
