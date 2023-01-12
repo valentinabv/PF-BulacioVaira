@@ -129,7 +129,8 @@
 
 .carousel {
   margin-top: 10px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  overflow: hidden; }
   .carousel .carousel-item {
     height: auto;
     padding: 10px; }
@@ -153,6 +154,13 @@
       width: 100%; }
     .tarjetas .card .card-body {
       padding: 10px; }
+      .tarjetas .card .card-body > a {
+        border: none;
+        background-color: transparent;
+        color: #121111;
+        opacity: 1; }
+        .tarjetas .card .card-body > a:hover {
+          font-weight: 545; }
 
 .footer {
   margin-top: 15px;
@@ -278,13 +286,13 @@
           margin: -10px;
           font-size: 28px; } }
 
-.div-padre {
+.novedades {
   overflow: hidden; }
-  .div-padre .boton {
+  .novedades .boton {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -25px; }
+    margin-top: -13px; }
 
 .titulo {
   width: 100%;
@@ -302,7 +310,7 @@
   .titulo .titulo__p {
     margin: 2px 20% 50px 20%;
     padding-top: 5px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center; }
 
 .subtitulo {

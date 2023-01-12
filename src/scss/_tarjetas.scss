@@ -16,6 +16,15 @@
         }
         .card-body {
         padding: 10px;
+            >a {
+                border: none;
+                background-color: transparent;
+                color: rgb(18, 17, 17);
+                opacity: 1;
+                &:hover{
+                    font-weight: 545;
+                }
+            }
         }
     }
 }
