@@ -1,8 +1,8 @@
 .navbar {
-    background-color: #FF8F29 !important;
+    background-color: $naranja !important;
     margin-bottom: 15px;
     > div > div > ul > li > ul, li { 
-        background-color: #FF8F29;
+        background-color: $naranja;
     }
     > div > div > form > button {
         background-color: #fbfffe;
