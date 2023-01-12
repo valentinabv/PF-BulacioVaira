@@ -1,0 +1,86 @@
+.calculador {
+    width: 100%;
+    .calculador__h3 {
+        font-family: $fontFam;
+        text-shadow: 1px 1px 2px black;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-size: 40px;
+        @media (max-width: 555px) {
+            margin-left: 10px;
+            margin-bottom: 5px;
+            font-size: 30px;
+        }
+        @media (max-width: 370px) {
+            margin-left: 5px;
+            font-size: 27px;
+        }
+    }
+    .calculador__div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: max-content;
+        overflow: hidden;
+        border: solid 2px;
+        padding: 30px 80px;
+        @media (max-width: 555px) {
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 30px;
+        }
+        .calculador__form {
+            display: grid;
+            gap: 1.5em;
+            .calculador__opciones {
+                padding: .6em .3em;
+                .calculador__select {
+                    width: 100%;
+                    font-size: 13px;
+                    padding: .6em .3em;
+                }
+            }
+            .boton-dos {
+                display: block;
+                width: 100px;
+                text-align: center;
+                margin-left: 30px;
+                padding: 5px 10px;
+                border: solid .5;
+                border-radius: 5px;
+                background-color: #f8f7f5;
+                box-shadow: #000000;
+                text-decoration: none;
+                @media (max-width: 760px) {
+                    margin: 3px;
+                    padding: 10px;
+                }
+                @media (max-width: 555px) {
+                    margin-left: 19%;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+        .calculador__iframe {
+            width: 25rem;
+            @media (max-width: 760px) {
+                margin-left: 20px;
+                width: 100%;
+            }
+            @media (max-width: 555px) {
+                margin-right: 60px;
+                padding-right: 40px;
+            }
+            @media (max-width: 450px) {
+                height: 15rem;
+            }
+        }
+    }
+}
+
+
+
+

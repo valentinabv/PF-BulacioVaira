@@ -8,7 +8,7 @@
                          "ico dr dr rrss";
     width: 100%;
     height: auto;
-    background-color: #05F2C7;
+    background-color: $verdeAgua;
     @media (max-width:535px) {
         display: grid;
         grid-template-areas: "ico pp pp rrss"
