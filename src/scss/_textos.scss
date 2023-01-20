@@ -2,20 +2,22 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    font-family: $fontFam;
     .titulo__h2 {
-        font-weight: bold;
+        font-family: $fontTitulo;
         text-shadow: 1px 1px 2px black;
         font-size: 60px;
-        margin-top: 5px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        @media (max-width:600px) {
+            margin-bottom: -9px;
+        }
     }
     .titulo__p {
-        margin: 2px 20% 50px 20%;
-        padding-top: 5px;
-        font-size: 18px;
+        font-family: $fontTexto;
+        margin: 6px 18%;
+        padding-bottom: 15px;
+        font-size: 17px;
         text-align: center;
     }
 }
@@ -23,10 +25,10 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    font-family: $fontFam;
+    font-family: $fontTexto;
     .subtitulo__p {
-        margin: 30px 30% 4px 30%;
-        font-size: 18px;
+        margin: 30px 20% 4px 20%;
+        font-size: 17px;
         text-align: center;
     }
     .subtitulo__wsp {

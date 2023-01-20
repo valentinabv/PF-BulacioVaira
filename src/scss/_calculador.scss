@@ -1,19 +1,21 @@
 .calculador {
     width: 100%;
     .calculador__h3 {
-        font-family: $fontFam;
+        font-family: $fontTitulo;
         text-shadow: 1px 1px 2px black;
-        margin-left: 20px;
-        margin-bottom: 10px;
-        font-size: 40px;
+        margin: 10px 20px;
+        font-size: 36px;
         @media (max-width: 555px) {
             margin-left: 10px;
             margin-bottom: 5px;
             font-size: 30px;
         }
-        @media (max-width: 370px) {
+        @media (max-width: 420px) {
             margin-left: 5px;
             font-size: 27px;
+        }
+        @media (max-width: 385px) {
+            font-size: 22px;
         }
     }
     .calculador__div {

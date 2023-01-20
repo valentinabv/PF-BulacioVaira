@@ -22,7 +22,7 @@
             font-size: 50px;
             font-weight: bold;
             margin-bottom: 1em; 
-            font-family: $fontFam;
+            font-family: $fontTitulo;
         }
         .formulario__contenedor {
             display: grid;
@@ -38,7 +38,7 @@
                 padding: .8em 0;
                 border-radius: .5em;
                 width: 100%;
-                font-family: $fontFam;
+                font-family: $fontTexto;
             }
         }
     }

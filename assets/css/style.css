@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +8,7 @@
 .main-header {
   width: 100%;
   height: 65vh;
-  background-image: url(../img/libreria-header.jpeg);
+  background-image: url(../../assets/img/libreria-header-min.jpeg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -80,9 +82,8 @@
         height: 3.3rem; } }
   .main-header > span {
     position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-shadow: 1px 1px 2px #000000;
-    font-weight: bold;
     font-size: 6.2rem;
     top: 35%;
     left: 25%;
@@ -104,22 +105,23 @@
     @media (max-width: 685px) {
       .main-header > span {
         font-size: 3.5rem; } }
-    @media (max-width: 590px) {
+    @media (max-width: 612px) {
       .main-header > span {
         font-size: 2.9rem; } }
-    @media (max-width: 480px) {
+    @media (max-width: 512px) {
       .main-header > span {
         font-size: 2.5rem; } }
-    @media (max-width: 420px) {
+    @media (max-width: 438px) {
       .main-header > span {
         font-size: 2rem; } }
-    @media (max-width: 340px) {
+    @media (max-width: 355px) {
       .main-header > span {
         font-size: 1.8rem; } }
 
 .navbar {
   background-color: #FF8F29 !important;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  font-family: "Montserrat", sans-serif; }
   .navbar > div > div > ul > li > ul, .navbar li {
     background-color: #FF8F29; }
   .navbar > div > div > form > button {
@@ -203,7 +205,8 @@
   .footer .pp {
     grid-area: pp;
     justify-self: center;
-    align-self: center; }
+    align-self: center;
+    font-family: "Montserrat", sans-serif; }
     @media (max-width: 535px) {
       .footer .pp {
         grid-area: pp; } }
@@ -219,7 +222,8 @@
           font-size: 10px; } }
   .footer .dr {
     grid-area: dr;
-    justify-self: center; }
+    justify-self: center;
+    font-family: "Montserrat", sans-serif; }
     @media (max-width: 535px) {
       .footer .dr {
         grid-area: dr;
@@ -287,40 +291,44 @@
           font-size: 28px; } }
 
 .novedades {
-  overflow: hidden; }
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif; }
   .novedades .boton {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -13px; }
+    margin-top: -13px;
+    font-family: "Montserrat", sans-serif; }
 
 .titulo {
   width: 100%;
   display: flex;
-  flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif; }
+  flex-direction: column; }
   .titulo .titulo__h2, .titulo .titulo-sobrenos {
-    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
     text-shadow: 1px 1px 2px black;
     font-size: 60px;
-    margin-top: 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; }
+    @media (max-width: 600px) {
+      .titulo .titulo__h2, .titulo .titulo-sobrenos {
+        margin-bottom: -9px; } }
   .titulo .titulo__p {
-    margin: 2px 20% 50px 20%;
-    padding-top: 5px;
-    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    margin: 6px 18%;
+    padding-bottom: 15px;
+    font-size: 17px;
     text-align: center; }
 
 .subtitulo {
   width: 100%;
   display: flex;
   flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: "Montserrat", sans-serif; }
   .subtitulo .subtitulo__p {
-    margin: 30px 30% 4px 30%;
-    font-size: 18px;
+    margin: 30px 20% 4px 20%;
+    font-size: 17px;
     text-align: center; }
   .subtitulo .subtitulo__wsp {
     font-size: 55px;
@@ -331,20 +339,22 @@
 .calculador {
   width: 100%; }
   .calculador .calculador__h3 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-shadow: 1px 1px 2px black;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    font-size: 40px; }
+    margin: 10px 20px;
+    font-size: 36px; }
     @media (max-width: 555px) {
       .calculador .calculador__h3 {
         margin-left: 10px;
         margin-bottom: 5px;
         font-size: 30px; } }
-    @media (max-width: 370px) {
+    @media (max-width: 420px) {
       .calculador .calculador__h3 {
         margin-left: 5px;
         font-size: 27px; } }
+    @media (max-width: 385px) {
+      .calculador .calculador__h3 {
+        font-size: 22px; } }
   .calculador .calculador__div {
     display: flex;
     flex-direction: row;
@@ -427,7 +437,7 @@
       font-size: 50px;
       font-weight: bold;
       margin-bottom: 1em;
-      font-family: Arial, Helvetica, sans-serif; }
+      font-family: "Montserrat", sans-serif; }
     .formulario .formulario__form .formulario__contenedor {
       display: grid;
       gap: 2.5em; }
@@ -441,4 +451,4 @@
         padding: .8em 0;
         border-radius: .5em;
         width: 100%;
-        font-family: Arial, Helvetica, sans-serif; }
+        font-family: "Montserrat", sans-serif; }

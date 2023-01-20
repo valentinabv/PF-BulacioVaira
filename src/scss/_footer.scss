@@ -46,6 +46,7 @@
         grid-area: pp;
         justify-self: center;
         align-self: center;
+        font-family: $fontTexto;
         @media (max-width:535px) {
             grid-area: pp;
         }
@@ -64,6 +65,7 @@
     .dr {
         grid-area: dr;
         justify-self: center;
+        font-family: $fontTitulo;
         @media (max-width:535px) {
             grid-area: dr;
             justify-content: center;

@@ -1,9 +1,11 @@
 .novedades {
     overflow: hidden;
+    font-family: $fontTexto;
     .boton {
         display: flex;
         align-items: center;
         justify-content: center;
         margin-top: -13px;
+        font-family: $fontTexto;
     }
 }
