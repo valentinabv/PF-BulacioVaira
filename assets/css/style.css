@@ -36,7 +36,7 @@
     .main-header {
       height: 15vh; } }
   .main-header > img {
-    top: 23%;
+    top: 25%;
     left: 5%;
     width: 13rem;
     height: 13rem;
@@ -53,12 +53,12 @@
         height: 11rem; } }
     @media (max-width: 1010px) {
       .main-header > img {
-        width: 10rem;
-        height: 10rem; } }
-    @media (max-width: 926px) {
+        width: 9rem;
+        height: 8rem; } }
+    @media (max-width: 929px) {
       .main-header > img {
         width: 8rem;
-        height: 8rem; } }
+        height: 7rem; } }
     @media (max-width: 685px) {
       .main-header > img {
         width: 6.5rem;
@@ -80,47 +80,76 @@
         top: 25%;
         width: 3.3rem;
         height: 3.3rem; } }
-  .main-header > span {
+  .main-header > h1 {
     position: absolute;
     font-family: "Montserrat", sans-serif;
-    text-shadow: 1px 1px 2px #000000;
+    text-shadow: 1px 1px 4px #000000;
+    color: #fbfffe;
     font-size: 6.2rem;
+    font-weight: bold;
     top: 35%;
-    left: 25%;
-    color: #fbfffe; }
+    left: 25%; }
     @media (max-width: 1150px) {
-      .main-header > span {
+      .main-header > h1 {
         font-size: 6rem;
         top: 33%;
         left: 23%; } }
     @media (max-width: 1070px) {
-      .main-header > span {
+      .main-header > h1 {
         font-size: 5.5rem; } }
     @media (max-width: 1010px) {
-      .main-header > span {
+      .main-header > h1 {
         font-size: 4.5rem; } }
     @media (max-width: 926px) {
-      .main-header > span {
+      .main-header > h1 {
         font-size: 4rem; } }
-    @media (max-width: 685px) {
-      .main-header > span {
+    @media (max-width: 718px) {
+      .main-header > h1 {
         font-size: 3.5rem; } }
     @media (max-width: 612px) {
-      .main-header > span {
+      .main-header > h1 {
         font-size: 2.9rem; } }
     @media (max-width: 512px) {
-      .main-header > span {
+      .main-header > h1 {
         font-size: 2.5rem; } }
     @media (max-width: 438px) {
-      .main-header > span {
+      .main-header > h1 {
         font-size: 2rem; } }
     @media (max-width: 355px) {
-      .main-header > span {
+      .main-header > h1 {
         font-size: 1.8rem; } }
+  .main-header > h2 {
+    position: absolute;
+    color: #fbfffe;
+    top: 60%;
+    left: 25.5%;
+    font-family: "Montserrat", sans-serif;
+    text-shadow: 1px 1px 3px #000000;
+    font-size: 2.2rem; }
+    @media (max-width: 1150px) {
+      .main-header > h2 {
+        left: 23.3%; } }
+    @media (max-width: 1070px) {
+      .main-header > h2 {
+        font-size: 1.5rem; } }
+    @media (max-width: 1010px) {
+      .main-header > h2 {
+        top: 70%;
+        font-size: 1.2rem; } }
+    @media (max-width: 612px) {
+      .main-header > h2 {
+        font-size: 1rem;
+        top: 64%; } }
+    @media (max-width: 438px) {
+      .main-header > h2 {
+        font-size: 0.8rem; } }
+    @media (max-width: 355px) {
+      .main-header > h2 {
+        font-size: 0.7rem;
+        top: 59%; } }
 
 .navbar {
   background-color: #FF8F29 !important;
-  margin-bottom: 15px;
   font-family: "Montserrat", sans-serif; }
   .navbar > div > div > ul > li > ul, .navbar li {
     background-color: #FF8F29; }
