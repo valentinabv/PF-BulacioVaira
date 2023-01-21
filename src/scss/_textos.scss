@@ -9,9 +9,8 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        @media (max-width:600px) {
-            margin-bottom: -9px;
-        }
+        padding: 8px;
+        margin-bottom: -8px;
     }
     .titulo__p {
         font-family: $fontTexto;
@@ -19,6 +18,14 @@
         padding-bottom: 15px;
         font-size: 17px;
         text-align: center;
+        >a {
+            text-decoration: none;
+            color: #000000;
+            &:hover {
+                text-decoration: underline;
+                color: $naranja;
+            }
+        }
     }
 }
 .subtitulo {
