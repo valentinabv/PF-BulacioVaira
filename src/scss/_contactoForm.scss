@@ -1,44 +1,54 @@
-.formulario {
-    text-shadow: 1px 1px 2px black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 600px;
-    margin-bottom: 25px;
-    margin-top: 20px;
-    transition: .5s;
-    .formulario__form {
-        margin: auto;
-        padding: 3.5em 3em;
-        background-color: $naranja;
-        opacity: .9;
-        border-radius: 10px;
-        text-align: center;
-        max-width: 400px;
-        width: 90%;
-        height: max-content;
-        .formulario__titulo {
-            color: #fff;
-            font-size: 50px;
-            font-weight: bold;
-            margin-bottom: 1em; 
-            font-family: $fontTitulo;
-        }
-        .formulario__contenedor {
-            display: grid;
-            gap: 2.5em;
-            .formulario__input {
-                width: 100%;
-                font-size: 13px;
-                padding: .6em .3em;
+.contacto {
+    background-color: rgba(255, 254, 254, 1);
+    background: radial-gradient(circle, transparent 20%, rgba(255, 254, 254, 1) 20%, rgba(255, 254, 254, 1) 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, rgba(255, 254, 254, 1) 20%, rgba(255, 254, 254, 1) 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#FF8F29 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #FF8F29 2px, rgba(255, 254, 254, 1) 2px) -1px 0;
+    background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+    .formulario {
+        text-shadow: 1px 1px 2px black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        transition: .5s;
+        .formulario__form {
+            margin: auto;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            border-radius: .5em;
+            padding: 3.5em 3em;
+            background-color: $verdeAgua;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+            height: max-content;
+            .formulario__titulo {
+                color: #fff;
+                font-size: 55px;
+                font-weight: bold;
+                margin-bottom: 1em; 
+                font-family: $fontTitulo;
             }
-            .formulario__submit {
-                color: rgb(0, 0, 0);
-                font-size: 1rem;
-                padding: .8em 0;
-                border-radius: .5em;
-                width: 100%;
-                font-family: $fontTexto;
+            .formulario__contenedor {
+                display: grid;
+                gap: 2.5em;
+                .formulario__input {
+                    width: 100%;
+                    font-size: 13px;
+                    border-radius: .5em;
+                    border: 1px solid $verdeAgua;
+                    background-color: $verdeAguaClaro;
+                    text-decoration: none;
+                    border: 1 px solid #fff;
+                    padding: .6em .3em;
+                    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                }
+                .formulario__submit {
+                    font-size: 1rem;
+                    padding: .8em 0;
+                    border-radius: .5em;
+                    width: 100%;
+                    @include boton($naranja);
+                }
             }
         }
     }

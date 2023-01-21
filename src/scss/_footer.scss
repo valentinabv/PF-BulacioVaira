@@ -1,5 +1,4 @@
 .footer {
-    margin-top: 15px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto; 
@@ -94,46 +93,10 @@
         @media (max-width:535px) {
             grid-area: rrss;
         }
-        .rrss-in {
-            color: #0e76a8;
-            font-size: 48px;
-            padding: 3px;
-            @media (max-width:670px) {
-                padding-top: 5px;
-                margin: -10px;
-                font-size: 38px;
-            }
-            @media (max-width:355px) {
-                margin: -10px;
-                font-size: 28px;
-            }
-        }
-        .rrss-fb {
-            color: #3b5998;
-            font-size: 48px;
-            padding: 3px;
-            @media (max-width:670px) {
-                padding-top: 5px;
-                margin: -10px;
-                font-size: 38px;
-            }
-            @media (max-width:355px) {
-                margin: -10px;
-                font-size: 28px;
-            }
-        }
-        .rrss-tw {
-            color: #00acee;
-            font-size: 48px;
-            padding: 3px;
-            @media (max-width:670px) {
-                padding-top: 5px;
-                margin: -10px;
-                font-size: 38px;
-            }
-            @media (max-width:355px) {
-                margin: -10px;
-                font-size: 28px;
+        @each $redes, $color in (in:#0e76a8,fb:#3b5998,tw:#00acee) {
+            .rrss-#{$redes} {
+                color: $color;
+                @include rrss;
             }
         }
     }
