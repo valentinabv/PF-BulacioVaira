@@ -38,9 +38,12 @@
                     border: 1px solid $verdeAgua;
                     background-color: $verdeAguaClaro;
                     text-decoration: none;
-                    border: 1 px solid #fff;
+                    border: 1 px solid $verdeAguaClaro;
                     padding: .6em .3em;
                     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                    &:hover {
+                        border: 1.5px solid $verdeAguaOsc;
+                    }
                 }
                 .formulario__submit {
                     font-size: 1rem;
